@@ -1,0 +1,21 @@
+@media screen and  (min-width: 600px){
+    .container iframe{
+        width: 80vmax;
+        height: 500px;
+        background-color: rgb(226, 67, 43);
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and  (max-width: 600px){
+    .container iframe{
+        width: 90%;
+    height: 500px;
+    background-color: rgb(226, 67, 43);
+    padding: 10px;
+    border-radius: 20px;
+    }    
+    
+}
