@@ -4,7 +4,7 @@ import styles from './Headers.module.css'
 
 const Headers = () => {
   return (
-    <div>
+    <div className={styles.image}>
         <img className={styles.container} src={img1} />
     </div>
   )

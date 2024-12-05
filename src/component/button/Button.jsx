@@ -13,7 +13,7 @@ const Button = () => {
     }, 7000);
     
     try {
-      const response = await fetch('http://192.168.1.9/run');
+      const response = await fetch('http://192.168.43.2/run');
       if (response.ok) {
         console.log('Light toggled successfully!');
       } else {
